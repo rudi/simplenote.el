@@ -446,7 +446,8 @@ setting."
       
       ;; Refresh the browser
       (save-excursion
-        (simplenote-browser-refresh)))))
+        (simplenote-browser-refresh))
+      (message "Simplenote sync finished."))))
 
 
 ;;; Simplenote browser
